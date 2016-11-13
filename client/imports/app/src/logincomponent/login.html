@@ -1,0 +1,71 @@
+<!-- <div>
+    <div class="fade-in-right-big smooth pos-rlt ng-scope">
+        <div class="center-block w-xxl w-auto-xs p-y-md ng-scope">
+            <div class="navbar navstyle">
+                <div class="pullcenterstyle">
+                    <img src="images/logo.png" alt=".">
+                </div>
+                <br/>
+                <br/>
+            </div>
+            <br/>
+            <div *ngIf="showmessage" class="alert alert-info">{{message}}</div>
+            <div class="p-a-md box-color r box-shadow-z1 text-color m-a">
+                <div class="fntsize-16">
+                    Sign in with your Account
+                </div>
+                <form [formGroup]="addForm" (ngSubmit)="login()">
+                    <div class="md-form-group float-label">
+                        <input type="email" name="Email" class="md-input" formControlName="email">
+                        <label>Email</label>
+                    </div>
+                    <div class="md-form-group float-label">
+                        <input type="password" name="Password" class="md-input" formControlName="password">
+                        <label>Password</label>
+                    </div>
+                    <div class="m-b-md">
+                        <label class="md-check">
+
+                        </label>
+                    </div>
+                    <button type="submit" class="btn btn-block p-x-md loginsubmitbutton">
+                        <img *ngIf="loginprocess==true" class="buttonimage" src="">   <i class="fa fa-user" aria-hidden="true"></i>  Sign in
+                    </button>
+                </form>
+                 </div>
+            <div class="p-v-lg text-center">
+            </div>
+        </div>
+    </div>
+</div> -->
+<div class="bodybackground">
+<h1>
+   <!--  Team Chat Login -->
+</h1>
+<div class="log">
+<div class="social w3ls">
+    <div *ngIf="showmessage" class="alert alert-info">{{message}}</div>
+        <!-- <li class="f"><a href="#"><img src="images/fb.png" alt=""></a></li>
+        <li class="t"><a href="#"><img src="images/twt.png" alt=""></a></li>
+        <li class="p"><a href="#"><img src="images/pin.png" alt=""></a></li>
+        <li class="i"><a href="#"><img src="images/ins.png" alt=""></a></li>
+        <div class="clear"></div> -->
+    </div>
+    <div class="content1 agileits">
+        <h2>Sign In</h2>
+        <form [formGroup]="addForm" (ngSubmit)="login()">
+            <input type="email" name="email" placeholder="Email Address" formControlName="email">
+            <input type="password" name="psw" placeholder="Password" formControlName="password">
+            <div class="button-row">
+                <input type="submit" class="sign-in" value="Sign In">
+                <div class="clear"></div>
+            </div>
+        </form>
+        <h3>New Here? <a href="">Sign Up</a></h3>
+    </div>
+</div>
+<!-- -728x90---> -->
+<div class="footer">
+    <p>© 2016 team work chat. All Rights Reserved | Design by <a href="" target="_blank">amit</a></p>
+</div> 
+</div> 
